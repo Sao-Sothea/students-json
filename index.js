@@ -8,7 +8,7 @@ server.use(cors())
 server.use(router)
 server.use(middleware)
 
-const port = 3000
+const port = 3001
 
 server.listen(port,()=>{
     console.log(`https://localhost:${port}`);
